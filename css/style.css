@@ -1,0 +1,138 @@
+.hidden {
+    display: none;
+  }
+
+body {
+  height: 100vh;
+}
+
+.bodybg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  margin:0;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 7rem;
+  color: black;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.screen{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #333333;
+  width: 1000px;
+  /* border-color: black; */
+  border: 10px solid #666666;
+  /* border-width: 10px; */
+  /* border-style: solid; */
+  opacity: 0.7;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.screen_left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen_right{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content: start;
+  opacity: 0.7;
+  height: 60vh;
+  padding-right: 20px;
+}
+
+.screen_top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  font-size: 1.5rem;
+  height: 15vh;
+  color: black;
+}
+
+.screen_middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-top: 10px solid black;
+  border-bottom: 10px solid lightgrey; */
+  opacity: 0.5;
+  height: 25vh;
+}
+
+.screen_middle2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-top: 10px solid black;
+  border-bottom: 10px solid lightgrey; */
+  opacity: 0.7;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 15vh;
+}
+
+.screen_bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 15vh;
+}
+
+#weather, #quote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+} 
+  
+form {
+width:100%;
+background-color: bisque;
+}
+
+input {
+width: 110%;
+height: 35px;
+background-color: black;
+color: white;
+font-weight: 400;
+font-size:1.2rem;
+}
+
+
+#todo-list {
+  list-style-type:square;
+  padding: 0px;
+  width: 110%;
+}
+
+#todo-list li {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
