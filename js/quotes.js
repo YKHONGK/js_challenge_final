@@ -33,4 +33,4 @@ const quotes = [
   }
 
   quotechange();
-  setInterval(quotechange, 10000);
+  setInterval(quotechange, 5000);

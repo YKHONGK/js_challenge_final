@@ -19,5 +19,5 @@ function firstBackGround() {
   }
   
 firstBackGround();
-setInterval(randomBackgroundImage, 10000);
+setInterval(randomBackgroundImage, 5000);
 
